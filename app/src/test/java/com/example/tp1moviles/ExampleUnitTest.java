@@ -1,4 +1,4 @@
-package com.example.traductor;
+package com.example.tp1moviles;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.traductor;
+package com.example.tp1moviles;
 
 import android.app.Application;
 import android.content.Intent;
@@ -48,7 +48,12 @@ public class SegundaActivityViewModel extends AndroidViewModel {
                 mutableImg.setValue(pal.getImagen());
 
             }
+
         });
+        if (palabra==null||palabra.isEmpty()||mutablePalTraducida.getValue()==null){
+            mutablePalTraducida.setValue("Palabra no encontrada!!");
+            mutableImg.setValue(R.drawable.imgnoencontrada);
+        }
 
     }
 }

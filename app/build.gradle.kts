@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.traductor"
+    namespace = "com.example.tp1moviles"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.traductor"
+        applicationId = "com.example.tp1moviles"
         minSdk = 33
         targetSdk = 34
         versionCode = 1

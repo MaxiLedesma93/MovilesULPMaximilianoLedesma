@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Traductor"
+rootProject.name = "Tp1Moviles"
 include(":app")
  

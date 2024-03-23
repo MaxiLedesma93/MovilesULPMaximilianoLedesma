@@ -1,4 +1,4 @@
-package com.example.traductor;
+package com.example.tp1moviles;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +10,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.traductor.databinding.ActivityMainBinding;
+import com.example.tp1moviles.MainActivityViewModel;
+import com.example.tp1moviles.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;

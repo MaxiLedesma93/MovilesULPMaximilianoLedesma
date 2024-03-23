@@ -1,16 +1,12 @@
-package com.example.traductor;
+package com.example.tp1moviles;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.traductor.databinding.ActivitySegundaBinding;
+import com.example.tp1moviles.databinding.ActivitySegundaBinding;
 
 public class SegundaActivity extends AppCompatActivity {
 
